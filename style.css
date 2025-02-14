@@ -1,0 +1,115 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ff0066;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #cc0055;
+}
+
+/* Biography Section */
+.biography {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.biography h2 {
+    font-size: 2.5rem;
+    color: #ff0066;
+    margin-bottom: 20px;
+}
+
+.biography p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Albums Section */
+.albums {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.albums h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.album {
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.album h3 {
+    font-size: 1.5rem;
+    color: #ff0066;
+    margin-bottom: 10px;
+}
+
+.album-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.album p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.album-audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
